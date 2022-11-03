@@ -1,17 +1,14 @@
-body{
-    font-family: 'Raleway', sans-serif;
+body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color:#757575;
-}
-.link{
+    }
+.link {
     text-decoration: none;
 }
 .logotype-web,
 .logotype-studio-header,
-.logotype-studio-footer{
+.logotype-studio-footer {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -19,56 +16,44 @@ body{
     line-height: 1.2;
     letter-spacing: 0.03em;
     }
-.logotype-web{
+.logotype-web {
     color: #2196F3;
 }
-.logotype-studio-header{
+.logotype-studio-header {
         color: #000000;
 }
-.logotype-studio-footer{
+.logotype-studio-footer {
     color: #FFFFFF;
 }
-.list{
+.list {
     list-style: none;
 }
-.menu-nav-studio,
-.menu-nav-portfolio-contacts,
-.email-header,
-.tel-header{
-    font-family: 'Roboto';
-    font-style: normal;
+.current,
+.menu-nav,
+.contacts-header {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
    }
-.menu-nav-studio{
-    color: #2196F3;
-}
-.menu-nav-portfolio-contacts {
+.menu-nav {
     color: #212121;
 }
-.email-header, 
-.tel-header {
+.contacts-header {
     color:#757575;
 }
-.menu-nav-studio:hover,
-.menu-nav-studio:focus,
-.menu-nav-portfolio-contacts:hover,
-.menu-nav-portfolio-contacts:focus,
-.email-header:hover,
-.email-header:focus,
-.tel-header:hover,
-.tel-header:focus
-{
+.current {
+    color: #2196F3;
+}
+.menu-nav:hover,
+.menu-nav:focus,
+.contacts-header:hover,
+.contacts-header:focus {
     color: #2196F3;
 }
 .top{
     background-color: #2F303A;
 }
-.hero-title{
-    font-family: 'Roboto';
-    font-style: normal;
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -77,9 +62,8 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.button-top{
-    font-family: 'Roboto';
-    font-style: normal;
+.button-top {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -93,28 +77,20 @@ body{
     border-radius: 4px;  
     cursor: pointer;
 }
-.features{
-    font-family: 'Roboto';
-    font-style: normal;
+.features {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
-.feature-text{
-    font-family: 'Roboto';
-    font-style: normal;
+.feature-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.pictures-block{
-    font-family: 'Roboto';
-    font-style: normal;
+.pictures-block {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -122,9 +98,7 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
 }
-.names-team{
-    font-family: 'Roboto';
-    font-style: normal;
+.names-team {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -132,9 +106,7 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
 }
-.specialty{
-    font-family: 'Roboto';
-    font-style: normal;
+.specialty {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -142,37 +114,29 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
-.footer{
+.footer {
     background-color: #2F303A;
  }
 .address-footer, 
-.email-footer,
-.tel-footer {
-    font-family: 'Roboto';
-    font-style: normal;
+.contacts-footer {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .address-footer {
     color: #FFFFFF;
 }
-.email-footer,
-.tel-footer {
+.contacts-footer {
     color: rgba(255, 255, 255, 0.6);
 }
 .address-footer:hover,
 .address-footer:focus,
-.email-footer:hover,
-.email-footer:focus,
-.tel-footer:hover,
-.tel-footer:focus{
+.contacts-footer:hover,
+.contacts-footer:focus {
     color:#2196F3;
 }
-.button{
-    font-family: 'Roboto';
-    font-style: normal;
+.button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -183,22 +147,18 @@ body{
 }
  .button:hover,
  .button:focus,
- .button:active{
+ .button:active {
     color: #FFFFFF;
     background-color: #2196F3;
  }
-.image-name{
-    font-family: 'Roboto';
-    font-style: normal;
+.image-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: #212121;
 }
-.image-text{
-    font-family: 'Roboto';
-    font-style: normal;
+.image-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
