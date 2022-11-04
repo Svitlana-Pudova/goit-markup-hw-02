@@ -6,9 +6,7 @@ body {
 .link {
     text-decoration: none;
 }
-.logotype-web,
-.logotype-studio-header,
-.logotype-studio-footer {
+.logotype-web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -28,7 +26,6 @@ body {
 .list {
     list-style: none;
 }
-.current,
 .menu-nav,
 .contacts-header {
     font-weight: 500;
@@ -116,6 +113,9 @@ body {
 }
 .footer {
     background-color: #2F303A;
+ }
+ address {
+    font-style: normal;
  }
 .address-footer, 
 .contacts-footer {
